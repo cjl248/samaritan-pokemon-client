@@ -1,14 +1,13 @@
 import { useState } from 'react'
 import './Home.scss'
-
-import PillButton from '../pillButton/PillButton'
-import Logo from '../logo/Logo'
+import Header from '../Header/Header'
 import MainGrid from '../mainGrid/MainGrid'
 
 const Home = () => { 
     return (
         <div id="home">
-            <Logo />
+            <Header />
+            <MainGrid />
         </div>
     )
 }

@@ -1,0 +1,21 @@
+#main-grid {
+    border: 5px solid darkgreen;
+    order: 1;
+
+    /* Grid */
+
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 36px;
+
+    position: absolute;
+    width: 1440px;
+    height: 867px;
+    left: 36px;
+    top: 204px;
+}

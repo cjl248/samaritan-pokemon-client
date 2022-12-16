@@ -1,0 +1,101 @@
+
+/* button / pill / medium */
+/* padding, margin, border, etc... top, right, bottom, left */ 
+
+#pill-button {
+    transform: translate(-30px);
+
+    /* Auto layout */
+    order: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    position: absolute;
+    width: hug(397px);
+    height: hug(72px);
+    // width: 397px;
+    // height: 72px;
+    left: 1079px;
+    top: 72px;
+
+    background: #EB5435;
+    border-radius: 100px;
+
+};
+
+#pokemon-table {
+    display: table;
+    width: inherit;
+}
+
+thead {
+    display: flex;
+    width: max-content;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+tr {
+    display: flex;
+    width: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+
+}
+
+#pokeball-img {
+
+    /* purepng 1 */
+    width: 72px;
+    height: 72px;
+
+    background: url("https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d96b65ea-d2d9-4d0b-8a79-8679ce8db043/pokeball.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221216%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221216T100915Z&X-Amz-Expires=86400&X-Amz-Signature=0601296a615f4109dad6b7491bd4f7b032f2106854ec1a8ac98e5ab85081aa5c&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22pokeball.png%22&x-id=GetObject") no-repeat center center;
+    background-size: cover;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    flex-shrink: 0;    
+};
+
+#pokball-text {
+
+    /* Add New Pokemon */
+    display: table;
+    // width: 301px;
+    height: hug(43px);
+    padding: 0px 16px 0px 0px;
+
+
+    /* Typography */
+    font-family: SF Pro;
+    font-size: 36px;
+    font-weight: 590;
+    /* identical to box height */
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #FFFFFF;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+    left: 80px;
+    top: 14.5px;
+    border-radius: 0px;
+
+
+
+
+}
